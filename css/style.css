@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.containermicrosoft{
+    margin: auto;
+    width: 98%;
+    
+    
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.shop i{
+    
+    padding-left: 10px;
+}
+.backgroundmicrosoft{
+    background-image: url("../img/slide1.png");
+    background-size: cover;
+    min-height: 400px;
+    text-align: center;
+    background-position: center;
+    background-position-y: 10px;
+}
+@media screen and (min-width: 680px) {
+    .titleback {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 679px) {
+    .titleback {
+      font-size: 12px;
+    }
+}
+
+.backgroundmicrosoft button{
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding: 2px 10px;
+    font-weight: 600;
+}
+.backgroundmicrosoft .titleback{
+    position: relative;
+    top: 250px;
+}
+
+.row{
+ 
+    padding-top: 20px;
+    margin: 0;
+    }
+.xbox{
+    
+    box-sizing: border-box;
+}
+
+.bg-dark {
+    background-color: transparent!important;
+}
+.card-img-overlay{
+    box-sizing: border-box;
+    width: 50%;
+    color: black;
+}
+
+    @media screen and (min-width: 700px) {
+    .card-img-overlay h5{
+        font-size: 22px;
+    }
+    .card-img-overlay p{
+      font-size: 18px;
+    }
+  }
+    @media screen and (min-width: 501px) {
+        .card-img-overlay {
+          font-size: 12px;
+        }
+      }
+      
+      @media screen and (max-width: 500px) {
+        .card-img-overlay {
+          font-size: 6px;
+        }
+}
+.card-img-overlay button{
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding: 2px 10px;
+    font-weight: 600;
+}
+.card-img{
+    height: 300px;
+}
+.carbon{
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.carbon .card-img-overlay{
+    margin-top: 50px;
+    color: white;
+}
+
+.carbon .card-img-overlay button, .carbon .card-img-overlay button a{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(39, 39, 39);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+@media only screen and (min-width:700px){
+    .carbon p {
+        font-size: 14px ;
+    }
+    .carbon .card-img-overlay button, .carbon .card-img-overlay button a {
+        text-decoration: none;
+        background-color: white;
+        color: rgb(39, 39, 39);
+        padding: 10px 15px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+@media only screen and (max-width:520px){
+    .carbon p{
+        font-size: 8px;
+    }
+   
+    .carbon .card-img-overlay button, .carbon .card-img-overlay button a {
+        text-decoration: none;
+        background-color: white;
+        color: rgb(39, 39, 39);
+        padding: 5px 10px;
+        font-size: 10px;
+        font-weight: 700;
+    }
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 35px;
+}
+footer i{
+    padding-left: 10px;   
+}
